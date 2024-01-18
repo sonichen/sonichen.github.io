@@ -1,25 +1,21 @@
 ---
-title: Example Project
-summary: An example of using the in-built project page.
+title: ABO_Notion
+summary: A Python-based music project allows users to manipulate and customize music using various features.
 tags:
-  - Deep Learning
-date: '2016-04-27T00:00:00Z'
+  - Music
+date: '2022-09-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
-external_link: ''
+external_link: 'https://github.com/sonichen/ABC_Notion_Music'
 
 image:
   caption: Photo by rawpixel on Unsplash
   focal_point: Smart
 
 links:
-  - icon: twitter
-    icon_pack: fab
-    name: Follow
-    url: https://twitter.com/georgecushen
-url_code: ''
+url_code: 'https://github.com/sonichen/ABC_Notion_Music'
 url_pdf: ''
-url_slides: ''
+url_slides: 'https://github.com/sonichen/ABC_Notion_Music'
 url_video: ''
 
 # Slides (optional).
