@@ -25,7 +25,7 @@ organizations:
     url: https://hkust.edu.hk/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My interests include Web Application and Blockchain.
+bio: My interests are Web Application and Blockchain.
 
 # Interests to show in About widget
 interests:
@@ -38,7 +38,7 @@ education:
     - course: Msc in Information Technology
       institution: HKUST
       year: 2024
-    - course: BSc in Artificial Intelligence
+    - course: BSc in Software Engineering
       institution: FZU
       year: 2023
 
@@ -97,16 +97,16 @@ social:
     link: '/#contact'
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://github.com/sonichen
+  # - icon: linkedin
+  #   icon_pack: fab
+  #   link: https://www.linkedin.com/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
+  # - icon: cv
+  #   icon_pack: ai
+  #   link: uploads/resume.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
