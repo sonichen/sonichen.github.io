@@ -36,10 +36,10 @@ interests:
 education:
   courses:
     - course: Msc in Information Technology
-      institution: HKUST
+      institution: The Hong Kong University of Science and Technology
       year: 2024
     - course: BSc in Software Engineering
-      institution: FZU
+      institution: Fuzhou University
       year: 2023
 
 # Skills
@@ -47,46 +47,65 @@ education:
 skills:
   - name: Technical
     items:
-      - name: Java
-        description: ''
+      - name: Java Web
+        description: 'SpringBoot, Mybatis'
         percent: 80
         icon: java
         icon_pack: fab
-      - name: Java
-        description: ''
+      - name: Frontend
+        description: 'Vue.js, React.js, HTML, CSS, JavaScript'
         percent: 80
-        icon: java
+        icon: font-awesome
         icon_pack: fab
-      - name: JavaScript
-        description: ''
-        percent: 80
-        icon: javascript
-        icon_pack: fab
+      - name: Smart Contract
+        description: 'Solidity, Vyper, Hardhat, Remix, Web3.js'
+        percent: 60
+        icon: cubes
+        icon_pack: fas
       - name: Rust
         description: ''
         percent: 60
-        icon: rust
+        icon: gears
         icon_pack: fas
-      - name: SQL
-        description: ''
+      - name: Storage
+        description: 'MySQL'
         percent: 60
         icon: database
+        icon_pack: fas
+      - name: Tools
+        description: 'Nginx, Git, SVN'
+        percent: 70
+        icon: laptop-code
+        icon_pack: fas
+      - name: Website
+        description: 'Vuepress, Wordpress, Mkdocs, Vecel, GithubPage'
+        percent: 80
+        icon: code
         icon_pack: fas
   - name: Others
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
+      - name: Chinese
+        description: 'Native'
+        percent: 100
+        icon: person-hiking
+        icon_pack: fas
+      - name: English
+        description: 'IELTS: 7'
+        percent: 80
+        icon: camera-retro
+        icon_pack: fas
       - name: PR
         description: ''
-        percent: 70
+        percent: 80
         icon: person-hiking
         icon_pack: fas
       - name: PS
         description: ''
         percent: 60
-        icon: camera-retro
+        icon: person-hiking
         icon_pack: fas
-
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
@@ -112,5 +131,6 @@ social:
 highlight_name: true
 ---
 
-I am a graduate CS student at HKUST seeking for new opportunities in HK.
+I am a CS master student at HKUST in 2024, seeking for new opportunities about Web Application Development or Blockchain in HongKong. Besides, I have two internships – one as a Rust developer and the other as a Web developer building an industry system using SpringBoot and Vue. Beyond my technical skills, I am a team player with excellent communication ability. Welcome to communicate. Contact me  ychenma@connect.ust.hk
+
 {style="text-align: justify;"}

@@ -42,49 +42,81 @@ sections:
       title: Hi, there! I am Soni.
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  # - block: skills
-  #   content:
-  #     title: Skills
-  #     text: ''
-  #     # Choose a user to display skills from (a folder name within `content/authors/`)
-  #     username: admin
-  #   design:
-  #     columns: '1'
-  # - block: experience
-  #   content:
-  #     title: Experience
-  #     # Date format for experience
-  #     #   Refer to https://docs.hugoblox.com/customization/#date-format
-  #     date_format: Jan 2006
-  #     # Experiences.
-  #     #   Add/remove as many `experience` items below as you like.
-  #     #   Required fields are `title`, `company`, and `date_start`.
-  #     #   Leave `date_end` empty if it's your current employer.
-  #     #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-  #     items:
-  #       - title: CEO
-  #         company: GenCoin
-  #         company_url: ''
-  #         company_logo: org-gc
-  #         location: California
-  #         date_start: '2021-01-01'
-  #         date_end: ''
-  #         description: |2-
-  #             Responsibilities include:
-
-  #             * Analysing
-  #             * Modelling
-  #             * Deploying
-  #       - title: Professor of Semiconductor Physics
-  #         company: University X
-  #         company_url: ''
-  #         company_logo: org-x
-  #         location: California
-  #         date_start: '2016-01-01'
-  #         date_end: '2020-12-31'
-  #         description: Taught electronic engineering and researched semiconductor physics.
-  #   design:
-  #     columns: '2'
+  - block: skills
+    id: skills
+    content:
+      title: Skills
+      text: ''
+      # Choose a user to display skills from (a folder name within `content/authors/`)
+      username: admin
+    design:
+      columns: '1'
+  - block: experience
+    id: experience
+    content:
+      title: Experience
+      # Date format for experience
+      #   Refer to https://docs.hugoblox.com/customization/#date-format
+      date_format: Jan 2006
+      # Experiences.
+      #   Add/remove as many `experience` items below as you like.
+      #   Required fields are `title`, `company`, and `date_start`.
+      #   Leave `date_end` empty if it's your current employer.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - title: OpenEuler Open-source community developer
+          company: Institute of Software Chinese Academy of Sciences
+          company_url: ''
+          company_logo: org-gc
+          location: China
+          date_start: '2023-04-12'
+          date_end: '2023-09-12'
+          description: |2-
+              Responsibilities include:
+              * Contributed to the development of two open-source community projects, one involving scanning sensitive data on git repositories and the other dedicated to design a file format to manage data
+              * Designed project features with the team and developed them in Rust
+              * Wrote unit and integration tests using Rust 
+              * Established user-friendly project documentation websites for broader community understanding
+        - title: Software Engineer Intern
+          company: Ruijie Networks Co., Ltd., China  
+          company_url: ''
+          company_logo: org-x
+          location: China
+          date_start: '2022-03-09'
+          date_end: '2020-08-19'
+          description: |2-
+              Responsibilities include:
+              * Worked as a Web developer in an agile team of about 8 people to maintain a cloth detect system
+              * Developed REST APIs using Java and the team’s own framework based on SpringBoot 
+              * Developed the front-end of the system using Vue, ElementUI, and JavaScript
+              * Participated in project testing processes and collaborated on user manual
+      columns: '2'
+  - block: experience
+    id: activities
+    content:
+      title: Activities
+      # Date format for experience
+      #   Refer to https://docs.hugoblox.com/customization/#date-format
+      date_format: Sep 2023
+      # Experiences.
+      #   Add/remove as many `experience` items below as you like.
+      #   Required fields are `title`, `company`, and `date_start`.
+      #   Leave `date_end` empty if it's your current employer.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - title: Head of IT Department
+          company: MAINLAND STUDENT AND SCHOLARS SOCIETY @HKUST
+          company_url: 'https://msss.hkust.edu.hk/'
+          company_logo: org-gc
+          location: Hong Kong
+          date_start: '2023-09-01'
+          date_end: ''
+          description: |2-
+              Responsibilities include:
+              * Organized the team to build the official website of MSSS
+              * Led the IT department to efficiently handle IT-related tasks, such as developing pages for special events 
+    design:
+      columns: '1'
   - block: portfolio
     id: projects
     content:
@@ -104,14 +136,12 @@ sections:
           tag: '*'
         - name: Java Web
           tag: Java Web
-        - name: Blockchain
-          tag: Blockchain
         - name: Rust
           tag: Rust
-        - name: Music
-          tag: Music
-        - name: VR
-          tag: VR
+        - name: Blockchain
+          tag: Blockchain
+        - name: Others
+          tag: Others
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
@@ -131,7 +161,7 @@ sections:
       text: |-
         Welcome
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
+      email: ychenma@connect.ust.hk
       # Choose a map provider in `params.yaml` to show a map from these coordinates
       # Automatically link email and phone or display as text?
       autolink: true

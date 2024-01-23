@@ -1,12 +1,12 @@
 ---
-title: VR Escape Room
-summary: Multi-Sensory Virtual Reality Applications
+title: CryptoKeyHub
+summary: A decentralized keys management chrome extension.
 tags:
-  - Others
+  - Blockchain
 date: "2021-12-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: https://www.bilibili.com/video/BV1HL4y1n7MG/
+external_link: https://github.com/sonichen/CryptoKeyHub/
 
 image:
   caption: Photo by Toa Heftiba on Unsplash
