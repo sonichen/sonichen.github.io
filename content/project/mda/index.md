@@ -6,7 +6,7 @@ tags:
 date: '2023-09-30T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
-external_link: 'mda-roan.vercel.app/'
+external_link: 'https://mda-roan.vercel.app/'
 
 image:
   caption: Photo by rawpixel on Unsplash
