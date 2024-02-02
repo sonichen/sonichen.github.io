@@ -138,8 +138,6 @@ sections:
           tag: Java Web
         - name: Rust
           tag: Rust
-        - name: Blockchain
-          tag: Blockchain
         - name: Others
           tag: Others
     design:
