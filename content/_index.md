@@ -8,7 +8,7 @@ sections:
   - block: hero
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
-      title: Soni
+      title: Yijun
       image:
         filename: hero-academic.png
       cta:
@@ -39,7 +39,7 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: Hi, there! I am Soni.
+      title: Hi, there! I am Yijun.
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
   - block: skills

@@ -1,12 +1,12 @@
 ---
 # Display name
-title: Soni
+title: Yijun
 
 # Name pronunciation (optional)
 # name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Soni
+first_name: Yijun
 last_name: CHEN
 
 # Status emoji
@@ -131,6 +131,6 @@ social:
 highlight_name: true
 ---
 
-I am a CS master student at HKUST in 2024, seeking for new opportunities about Web Application Development or Blockchain in HongKong. Besides, I have two internships – one as a Rust developer and the other as a Web developer building an industry system using SpringBoot and Vue. Beyond my technical skills, I am a team player with excellent communication ability. Welcome to communicate. Contact me  ychenma@connect.ust.hk
+I am a CS master's student at HKUST in 2024. I'm currently seeking new opportunities in Web Application Development or Blockchain in Hong Kong. With one year of internship experience in software development, I bring not only technical expertise but also strong teamwork and communication skills. Feel free to reach out for further discussion—I'm always open to connecting and exploring potential collaborations.
 
 {style="text-align: justify;"}
