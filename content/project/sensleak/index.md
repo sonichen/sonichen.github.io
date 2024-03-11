@@ -6,7 +6,7 @@ tags:
 date: '2023-05-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
-external_link: 'https://github.com/sonichen/sensleak-rs'
+external_link: 'https://github.com/open-rust-initiative/sensleak-rs'
 
 image:
   caption: Photo by rawpixel on Unsplash
